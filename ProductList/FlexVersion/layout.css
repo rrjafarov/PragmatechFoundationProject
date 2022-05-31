@@ -1,0 +1,110 @@
+/* Cedvel yaratmaq ucun olan class - container */
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    font-size: inherit;
+    font-weight: normal;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* Setir yaratmaq ucun olan class - row */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* sutunlar ucun olacaq olan class - col */
+
+.col-1 {
+    width: calc(100% / 12)
+}
+
+.col-2 {
+    width: calc((100% / 12) * 2)
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3)
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3)
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4)
+}
+
+.col-5 {
+    width: calc((100% / 12) * 5)
+}
+
+.col-6 {
+    width: calc((100% / 12) * 6)
+}
+
+.col-7 {
+    width: calc((100% / 12) * 5)
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8)
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9)
+}
+
+.col-10 {
+    width: calc((100% / 12) * 10)
+}
+
+.col-11 {
+    width: calc((100% / 12) * 11)
+}
+
+.col-12 {
+    width: calc((100% / 12) * 12)
+}
+
+
+/* Flex classes */
+
+.flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
